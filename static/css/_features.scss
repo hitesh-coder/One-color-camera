@@ -1,0 +1,49 @@
+.features-container{
+    background: #323232;
+    position: relative;
+
+    .wave{
+        position: absolute;
+        width: 100%;
+        left: 0rem;
+        bottom: 0rem;
+        z-index: 1;
+    }
+}
+
+#features{
+    min-height: 90vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        color: black;
+        
+        .card{
+            display: flex;
+            flex-direction: column;
+            background: white;
+            margin: 4rem;
+            text-align: center;
+            border-radius: 2rem;
+            overflow: hidden;
+            z-index: 2;
+            // box-shadow: 1px 2px 5px whitesmoke;
+
+            h4{
+                margin: 2rem 0rem;
+            }
+
+            p{
+                margin-bottom: 1rem;
+                padding: 1rem;
+            }
+        }
+    }
+}

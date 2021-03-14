@@ -1,0 +1,49 @@
+footer{
+    background: linear-gradient(130deg ,#525252 ,#131313);
+    
+}
+
+.foot{
+    width: 80vw;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // position: absolute;
+
+    h1{
+        flex: 3;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+
+        .twitter{
+            // height: 5rem;
+            transition: all 0.3s;
+
+            &:hover{
+                // filter: drop-shadow(2px 2px 2px rgb(23, 182, 255));
+                background: rgb(23, 182, 255);
+                padding: 3px;
+                border-radius: 0.3rem;
+            }
+
+        }
+
+        .instagram{
+            // height: 5rem;
+            transition: all 0.3s;
+            &:hover{
+                // filter: drop-shadow(2px 2px 2px rgb(23, 182, 255));
+                background: linear-gradient(rgb(41, 41, 255),rgb(98, 0, 255),rgb(255, 157, 0),rgb(255, 81, 0));
+                padding: 0.3rem;
+                border-radius: 1rem;
+            }
+        }
+    }
+}
